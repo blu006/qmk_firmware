@@ -1,0 +1,30 @@
+{
+    "keyboard_name": "sal_kb",
+    "manufacturer": "blu",
+    "url": "https://github.com/blu006/sal_kb",
+    "maintainer": "blu006",
+    "bootloader_instructions": "Press the button on the back of the board stack",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x13A6",
+        "device_version": "0.0.1"
+    },
+    "development_board": "promicro",
+    "matrix_pins": {
+	    "direct": [
+	        ["B6", "B1", "F7", "F6", "F4", "F5"]
+	    ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "k00", "x": 0, "y": 0, "h": 2, "w": 2, "matrix": [0, 0]},
+                {"label": "k01", "x": 1, "y": 0.5, "matrix": [0, 1]},
+                {"label": "k02", "x": 2, "y": 0.5, "matrix": [0, 2]},
+                {"label": "k03", "x": 3, "y": 0.5, "matrix": [0, 3]},
+                {"label": "k04", "x": 4, "y": 0.5, "matrix": [0, 4]},
+                {"label": "k05", "x": 5, "y": 0.5, "matrix": [0, 5]}
+            ]
+        }
+    }
+}

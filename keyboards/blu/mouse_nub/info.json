@@ -1,0 +1,27 @@
+{
+    "keyboard_name": "mouse_nub",
+    "manufacturer": "blu",
+    "url": "https://github.com/blu006/mouse_nub",
+    "maintainer": "blu006",
+    "bootloader_instructions": "Hold the BOOTSEL button on the Raspberry Pi Pico",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x9EE6",
+        "device_version": "0.0.1"
+    },
+    "development_board": "promicro_rp2040",
+    "matrix_pins": {
+	    "direct": [
+	        ["GP22", null, null],
+		["GP21", "GP20", "GP19"]
+	    ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"Nub", "matrix":[0, 0], "x":1, "y":0},
+		{"label":"Left", "matrix":[1, 0], "x":0, "y":1}, {"label":"Center", "matrix":[1, 1], "x":1, "y":1}, {"label":"Right", "matrix":[1, 2], "x":2, "y":1}
+            ]
+        }
+    }
+}
